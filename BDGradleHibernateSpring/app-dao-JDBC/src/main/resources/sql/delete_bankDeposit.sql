@@ -1,1 +1,0 @@
-delete from BANKDEPOSIT where depositId = ?

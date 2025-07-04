@@ -91,6 +91,16 @@
         <dependency>
             <groupId>org.jboss.test</groupId>
             <artifactId>jboss-test</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>apache-log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
